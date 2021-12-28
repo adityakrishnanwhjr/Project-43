@@ -9,7 +9,7 @@ class System{
         //add code to return true if correct answer entered.
 
         if(enteredCode === actualCode){
-            Security.display();
+            
         }
 
         
