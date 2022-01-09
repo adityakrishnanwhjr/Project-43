@@ -1,12 +1,13 @@
-var bg,bg2,form,system,code,security 
+var bg,bg2,form,system,code,security,correct;
 var score=0;
+correct = false;
 
 function preload() {
  
   
   bg= loadImage("aladdin_cave.jpg")
   //load image for the treasure background
-  bg2 = loadImage("aladdin_cave2.jpg");
+  bg2 = loadImage("treasure.jpg");
   
 }
 
@@ -30,7 +31,7 @@ function draw() {
   
 
   if(score === 3) {
-    clear();
+    clear()
     background(bg2)
     fill("black")
     textSize(40);
