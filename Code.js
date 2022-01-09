@@ -11,15 +11,17 @@ function clues() {
     text("Hint: Always changing, not constant !!", 100,70)
 // add code for displaying rest of the names and the hints.
 
-   fill("white");
-   textSize(15);
-   text("N F U O I C T N",700,150);
-   fill("lightblue");
-   text("Hint: Performs a particular task !!",700,170);
+    fill("white");
+    textSize(15);
+    text("C T N I U O F N",700,150);
+    fill("lightblue");
+    text("Hint: Performs a particular task !!",700,170);
 
-   fill("white");
-   textSize(15);
-   text("A B A T A S E D",100,250);
-   fill("lightblue");
-   text("Hint: Stores all information !!",100,270)
+    fill("white");
+    textSize(15);
+    text("B A A T S A E D",100,250);
+    fill("lightblue");
+    text("Hint: Stores all information !!",100,270);
+    
+
 }
